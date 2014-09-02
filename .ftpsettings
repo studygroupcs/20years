@@ -1,0 +1,8 @@
+{
+  "host": "ip/hostname",
+  "port": 21,
+  "username": "my-username",
+  "password": "my-password",
+  "path": "my-remote-folder",
+  "secure": false
+}
