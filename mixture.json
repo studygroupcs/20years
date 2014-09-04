@@ -16,7 +16,7 @@
     "path": null,
     "relativePaths": true
   },
-  "debug": false,
+  "debug": true,
   "domain": null,
   "lintScripts": false,
   "modelSource": null,
