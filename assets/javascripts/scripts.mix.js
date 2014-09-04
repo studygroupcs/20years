@@ -10,4 +10,7 @@
 @import "bootstrap/tooltip.js";
 @import "bootstrap/popover.js";
 
+@import "scrollReveal.js";
+@import "waypoints.min.js";
+
 @import "application.js";

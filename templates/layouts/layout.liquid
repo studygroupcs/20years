@@ -9,10 +9,8 @@
         {% block styles %}{% endblock %}
     </head>
     <body>
-        {% include "navbar" %}
-        <div id="wrapper" class="container">
-            {% block content %}{% endblock %}
-        </div>
+        {% block content %}{% endblock %}
+
         <script src="//ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
         {{ "scripts.js" | asset_url | script_tag }}
         {% comment %} Scripts block allowing child pages to inject their own styles {% endcomment %}

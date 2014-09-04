@@ -21,7 +21,8 @@
   "lintScripts": false,
   "modelSource": null,
   "preprocessorLocations": [
-    "assets"
+    "assets",
+    "app/js"
   ],
   "preprocessorScriptOutput": "app/js",
   "preprocessorStyleOutput": "app/css",
