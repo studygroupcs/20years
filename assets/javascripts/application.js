@@ -42,7 +42,7 @@
 		        var offset;
 		        var scrollTarget;
 		        var speed;
-		        offset = 0;
+		        offset = 1;
 		        speed = 800;
 		        scrollTarget = $(target);
 

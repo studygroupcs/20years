@@ -2479,7 +2479,7 @@ https://github.com/imakewebthings/jquery-waypoints/blob/master/licenses.txt
 		        var offset;
 		        var scrollTarget;
 		        var speed;
-		        offset = 0;
+		        offset = 1;
 		        speed = 800;
 		        scrollTarget = $(target);
 
