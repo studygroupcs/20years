@@ -8,7 +8,7 @@
         {% comment %} Style block allowing child pages to inject their own styles {% endcomment %}
         {% block styles %}{% endblock %}
     </head>
-    <body>
+    <body class="{% block body_class %}{% endblock %}">
         {% block content %}{% endblock %}
 
         <script src="//ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
