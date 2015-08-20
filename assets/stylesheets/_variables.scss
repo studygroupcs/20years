@@ -1,5 +1,9 @@
 // Own Variables
-$main-color:         #000000 !default;
+$blue:         #0099d8 !default;
+$blue-light:   lighten(#0099d8, 50%) !default;
+$blue-dark:    darken(#0099d8, 10%) !default;
+
+$sg-grey:      #32363f !default;
 
 
 

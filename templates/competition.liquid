@@ -1,0 +1,43 @@
+{% comment %} // INDEX.HTML TITLE: {% endcomment %}
+{% block title %}Study Group - Celebrating Students First for 20 years{% endblock %}
+{% block body_class %}test class{% endblock %}
+
+{% block styles %}
+{% comment %} // PASTE IN THIS BLOCK BELOW THE SPECIFIC STYLES FOR THIS PAGE {% endcomment %}
+{% endblock %}
+
+{% block content %}
+{% include "header" %}
+
+<div class="container competition">
+	<div class="row">
+
+		<div class="col-sm-6">
+			<div class="left">
+				<h2>How to play:</h2>
+				<p>
+					Enter your name and email and choose one answer, you will then be entered into the weekly draw to win entertainment vouchers. 
+					All the answers can be found in the timeline.
+				</p>
+				<p>
+					The competition is limited to one entry per valid email address, per week. 
+					Weekly winners will be notified by email.
+				</p>
+				<a href="index" class="button">&laquo; Back to timeline</a>
+			</div>
+		</div>
+
+		<div class="col-sm-6">
+			<div class="right">
+				<iframe src="http://survey.clicktools.com/app/survey/response.jsp">
+			</div>
+		</div>
+
+	</div>
+</div>
+
+{% endblock %}
+
+{% block scripts %}
+{% comment %} // PASTE IN THIS BLOCK BELOW THE SPECIFIC SCRIPTS FOR THIS PAGE {% endcomment %}
+{% endblock %}

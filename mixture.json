@@ -7,25 +7,21 @@
       "ie 8",
       "ie 7"
     ],
-    "sourceMap": true
+    "sourceMap": false
   },
   "convertHtml": {
-    "default": null,
     "extension": ".html",
-    "ignoreUrls": null,
-    "path": null,
     "relativePaths": true
   },
-  "debug": true,
+  "debug": false,
   "domain": null,
   "lintScripts": false,
   "modelSource": null,
   "preprocessorLocations": [
-    "assets",
-    "app/js"
+    "assets"
   ],
-  "preprocessorScriptOutput": "app/js",
-  "preprocessorStyleOutput": "app/css",
+  "preprocessorScriptOutput": "js",
+  "preprocessorStyleOutput": "css",
   "projectDescription": "20 Years of Study Group - Microsite",
   "projectName": "20 Years microsite - Study Group",
   "publishedId": null,

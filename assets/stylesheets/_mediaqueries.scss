@@ -1,17 +1,484 @@
 @import "variables";
 
+@media (max-width: $screen-lg-min) {
+}
+
+@media (max-width: $screen-md-max) {
+}
+
+@media (max-width: $screen-sm-max) {
+	header {
+		& .col-xs-7 {
+			& .button {
+				margin-right: 15%;
+			}
+		}
+	}
+
+	section {
+		& .left .info_box {
+			font-size: 11px;
+			line-height: 18px;
+			& p {
+				font-size: 12px;
+				line-height: 20px;
+			}
+		}
+		& .right .info_box {
+			h2 {
+				font-size: 65px;
+			}
+			ul {
+				& li {
+					font-size: 15px;
+					line-height: 23px;
+					margin-bottom: 8px;
+				}
+			}
+		}
+
+		&.intro {
+			& img {
+				margin-top: 50px;
+			}
+
+			& .timeline_start {
+				height: 185px; /* FIX FOR IE */
+				height: 20vh;
+			}
+		}
+
+		&#year_1994 {
+			& .left {
+				padding: 350px 100px 0px 0px;
+			}
+			& .right {
+				padding: 315px 60px 0px 90px;
+			}
+		}
+
+		&#year_1995 {
+			& .left {
+				padding: 270px 50px 0px 0px;
+			}
+			& .right {
+				padding: 270px 60px 0px 60px;
+			}
+		}
+
+		&#year_1996 {
+			& .left {
+				padding: 160px 60px 0px 0px;
+			}
+			& .right {
+				padding: 340px 90px 0px 50px;
+			}		
+		}
+
+		&#year_1997 {
+			& .left {
+				padding: 250px 180px 0px 0px;
+			}
+			& .right {
+				padding: 330px 90px 0px 0px;
+			}
+		}
+
+		&#year_1998 {
+			& .left {
+				padding: 120px 50px 0px 0px;
+			}
+			& .right {
+				padding: 300px 70px 0px 95px;
+			}
+		}
+
+		&#year_1999 {
+			& .left {
+				padding: 230px 160px 0px 0px;
+			}	
+			& .right {
+				padding: 475px 50px 0px 50px;
+			}
+		}
+
+		&#year_2000 {
+			& .left {
+				padding: 240px 50px 0px 0px;
+			}
+			& .right {
+				padding: 240px 60px 0px 40px;
+			}
+		}
+
+		&#year_2001 {
+			& .left {
+				padding: 220px 40px 0px 0px;
+			}
+			& .right {
+				padding: 230px 70px 0px 120px;
+			}
+		}
+
+		&#year_2002 {
+			& .left {
+				padding: 220px 40px 0px 0px;
+			}
+			& .right {
+				padding: 220px 60px 0px 35px;
+			}
+		}
+
+		&#year_2003 {
+			& .left {
+				padding: 180px 0px 0px 0px;
+			}
+			& .right {
+				padding: 155px 65px 0px 70px;
+			}
+		}
+
+		&#year_2004 {
+			& .left {
+				padding: 180px 40px 0px 0px;
+			}
+			& .right {
+				padding: 415px 50px 0px 130px;
+			}
+		}
+
+		&#year_2005 {
+			& .left {
+				padding: 180px 50px 0px 0px;
+			}
+			& .right {
+				padding: 160px 50px 0px 30px;
+			}
+		}
+
+		&#year_2006 {
+			& .left {
+				padding: 220px 20px 0px 0px;
+			}
+			& .right {
+				padding: 205px 70px 0px 140px;
+			}
+		}
+
+		&#year_2007 {
+			& .left {
+				padding: 250px 140px 0px 0px;
+			}
+			& .right {
+				padding: 350px 70px 0px 80px;
+			}
+		}
+
+		&#year_2008 {
+			& .left {
+				padding: 200px 80px 0px 0px;
+			}
+			& .right {
+				padding: 230px 60px 0px 0px;
+			}
+		}
+
+		&#year_2009 {
+			& .left {
+				padding: 200px 40px 0px 0px;
+			}
+			& .right {
+				padding: 160px 70px 0px 110px;
+			}
+		}
+
+		&#year_2010 {
+			& .left {
+				padding: 310px 40px 0px 0px;
+			}
+			& .right {
+				padding: 375px 70px 0px 50px;
+			}
+		}
+
+		&#year_2011 {
+			& .left {
+				padding: 250px 120px 0px 0px;
+			}
+			& .right {
+				padding: 200px 70px 0px 0px;
+			}		
+		}
+
+		&#year_2012 {
+			& .left {
+				padding: 290px 80px 0px 0px;
+			}
+			& .right {
+				padding: 260px 80px 0px 0px;
+			}		
+		}
+
+		&#year_2013 {
+			& .left {
+				padding: 265px 100px 0px 0px;
+			}
+			& .right {
+				padding: 245px 70px 0px 0px;
+			}		
+		}
+
+		&#year_2014 {
+			& .left {
+				padding: 200px 0px 0px 0px;
+			}
+			& .right {
+				padding: 155px 80px 0px 50px;
+			}		
+		}
+
+	}
+}
+
 @media (max-width: $screen-xs-max) {
-  .go {color:#ccc;}
+	body {
+		background: $blue;
+	}
+
+	header {
+		padding: 20px 0px 18px 0px;
+			& img {
+				margin: 5px 0px;
+			}
+			& .col-xs-7 {
+					& .button {
+						margin-top: 10px;
+						margin-right: 23%;
+						padding: 8px 12px;
+						font-size: 15px;
+					}
+			}
+	}
+
+	.timeline {
+		background: none;
+	}
+
+	section {
+		& .left, .right {
+			width: 100%;
+			float: left;
+				& .info_box {
+					width: 100%;
+				}
+		}
+
+		& .left .info_box {
+			background: $blue-dark;
+			padding: 20px;
+		}
+
+		&.intro {
+			& img {
+				width: 120%;
+				margin: 70px 0px 0px -17%;
+			}
+			& .timeline_start {
+				display: none;
+			}
+		}
+
+		&#year_1994,
+		&#year_1995,
+		&#year_1996,
+		&#year_1997,
+		&#year_1998,
+		&#year_1999,
+		&#year_2000,
+		&#year_2001,
+		&#year_2002,
+		&#year_2003,
+		&#year_2004,
+		&#year_2005,
+		&#year_2006,
+		&#year_2007,
+		&#year_2008,
+		&#year_2009,
+		&#year_2010,
+		&#year_2011,
+		&#year_2012,
+		&#year_2013,
+		&#year_2014 {
+			& .left, .right {
+				padding: 0px 20% 20px 20px;
+			}
+			& .right {
+				padding-top: 105px;
+			}
+		}
+
+		&#year_1994 {
+			background: url(../img/mobile/bg_section_1.gif) no-repeat left bottom;
+		}
+
+		&#year_1995 {
+			background: url(../img/mobile/bg_section_2.gif) no-repeat left bottom;
+		}
+
+		&#year_1996 {
+			background: url(../img/mobile/bg_section_3.gif) no-repeat left bottom;
+		}
+
+		&#year_1997 {
+			background: url(../img/mobile/bg_section_4.gif) no-repeat left bottom;
+		}
+
+		&#year_1998 {
+			background: url(../img/mobile/bg_section_5.gif) no-repeat left bottom;
+		}
+
+		&#year_1999 {
+			background: url(../img/mobile/bg_section_6.gif) no-repeat left bottom;
+		}
+
+		&#year_2000 {
+			background: url(../img/mobile/bg_section_7.gif) no-repeat left bottom;
+		}
+
+		&#year_2001 {
+			background: url(../img/mobile/bg_section_8.gif) no-repeat left bottom;
+		}
+
+		&#year_2002 {
+			background: url(../img/mobile/bg_section_9.gif) no-repeat left bottom;
+		}
+
+		&#year_2003 {
+			background: url(../img/mobile/bg_section_10.gif) no-repeat left bottom;
+		}
+
+		&#year_2004 {
+			background: url(../img/mobile/bg_section_11.gif) no-repeat left bottom;
+		}
+
+		&#year_2005 {
+			background: url(../img/mobile/bg_section_12.gif) no-repeat left bottom;
+		}
+
+		&#year_2006 {
+			background: url(../img/mobile/bg_section_13.gif) no-repeat left bottom;
+		}
+
+		&#year_2007 {
+			background: url(../img/mobile/bg_section_14.gif) no-repeat left bottom;
+		}
+
+		&#year_2008 {
+			background: url(../img/mobile/bg_section_15.gif) no-repeat left bottom;
+		}
+
+		&#year_2009 {
+			background: url(../img/mobile/bg_section_16.gif) no-repeat left bottom;
+		}
+
+		&#year_2010 {
+			background: url(../img/mobile/bg_section_17.gif) no-repeat left bottom;
+		}
+
+		&#year_2011 {
+			background: url(../img/mobile/bg_section_18.gif) no-repeat left bottom;
+		}
+
+		&#year_2012 {
+			background: url(../img/mobile/bg_section_19.gif) no-repeat left bottom;
+		}
+
+		&#year_2013 {
+			background: url(../img/mobile/bg_section_2.gif) no-repeat left bottom;
+		}
+
+		&#year_2014 {
+			background: url(../img/mobile/bg_section_20.gif) no-repeat left bottom;
+		}
+	}
+
+	/* COMPRTITION PAGE STYLES */
+	.competition {
+		margin-top: 100px;
+			& .left, .right {
+				padding: 0px;
+			}
+			& .button {
+				border: 1px solid #fff;
+				margin-bottom: 15px;
+			}
+	}
+
 }
 
-@media (min-width: $screen-sm-min) and (max-width: $screen-sm-max) {
-  
-}
+@media (max-width: 520px) {
+	header {
+		&.navbar-fixed-top {
+			position: relative;
+		}
+		padding: 20px 0px 18px 0px;
+			& img {
+				margin: 0px 0px;
+				width: 100%;
+			}
+			& .col-xs-5, .col-xs-7 {
+				float: none;
+				text-align: left;
+			}
+			& .col-xs-7 {
+				& .button {
+					margin-top: 15px;
+					margin-right: auto;
+					padding: 5px 10px;
+					font-size: 13px;
+				}
+		}
+	}
 
-@media (min-width: $screen-md-min) and (max-width: $screen-md-max) {
-  
-}
+	nav {
+		width: 50px;
+			& ul {
+				& li {
+					font-size: 12px;
+	    				& a {
+							padding: 0px;
+							border: none;
+	    				}
+						&.active a {
+							font-size: 12px;
+							border: none;
+							border-radius: 0px;
+						}
+				}
+			}
+	}
 
-@media (min-width: $screen-lg-min) {
-  
+	section {
+		margin-top: -200px;
+		margin-bottom: 100px;
+		& .left, .right {
+			width: 94%;
+		}
+		&.intro {
+			margin-top: 0px;
+			margin-bottom: 100px;
+
+			& img {
+				margin: 0px 0px 0px -17%;
+			}
+		}
+		&#year_2014 {
+			margin-bottom: 0px;
+		}
+	}
+
+	/* COMPRTITION PAGE STYLES */
+	.competition {
+		margin-top: 5px;
+	}
 }

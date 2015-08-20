@@ -4,7 +4,7 @@
 			    .waypoint(function(direction) {
 			$('a[href="#' + this.id + '"]').parent('li').toggleClass('active', direction === 'down');
 			    }, {
-			    offset: 0
+			    offset: 300
 			    })
 			    .waypoint(function(direction) {
 			       $('a[href="#' + this.id + '"]').parent('li').toggleClass('active', direction === 'up');
@@ -51,3 +51,11 @@
 
 		    })
 		});
+
+
+
+
+
+
+
+		
